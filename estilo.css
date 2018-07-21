@@ -1,0 +1,27 @@
+.palco {
+  /* ocupa 80% da largura da tela */
+  width: 80%;
+  /* ocupa 80% da altura da tela */
+  height: 80vh;
+  /* borda com 5 pixels, sólida e com cor preta */
+  border: 5px solid black;
+  /* margens superior e inferior zero, esquera e direita automáticas */
+  margin: 0 auto;
+  /* define a imagem de fundo */
+  background-image: url('espaco.png');
+  /* tamanho da imagem de fundo */
+  background-size: cover;
+  /* posição relativa para podermos definir bottom manualmente nos elementos filhos */
+  position: relative;
+}
+
+.robo {
+  /* ocupa 20% da largura da tela */
+  width: 20%;
+  /* posição absoluta para podermos definir bottom manualmente */
+  position: absolute;
+  /* para que fique tocando o chão */
+  bottom: 10px;
+  /* para afastar um pouco da margem esquerda */
+  left: 50px;
+}
